@@ -12,7 +12,8 @@ lazy val root = project
       "org.glassfish.jersey.media" % "jersey-media-json-jackson" % "3.1.1",
       "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.14.2",
       "org.glassfish.jersey.inject" % "jersey-hk2" % "3.1.1",
-      "org.glassfish.jersey.containers" % "jersey-container-grizzly2-http" % "3.1.1"
+      "org.glassfish.jersey.containers" % "jersey-container-grizzly2-http" % "3.1.1",
+      "org.glassfish.jaxb" % "jaxb-runtime" % "4.0.2"
     ),
 
     assembly / mainClass := Some("spc.main"),

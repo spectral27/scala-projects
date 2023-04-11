@@ -7,6 +7,7 @@ import org.glassfish.jersey.internal.inject.AbstractBinder
 import org.glassfish.jersey.server.ResourceConfig
 
 import java.net.URI
+import scala.collection.mutable.ArrayBuffer
 
 @main def main(): Unit =
   val uri = URI.create("http://0.0.0.0:8080")
