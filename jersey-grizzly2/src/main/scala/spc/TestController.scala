@@ -1,14 +1,7 @@
 package spc
 
-import com.fasterxml.jackson.databind.ObjectMapper
-import jakarta.inject.Inject
-import jakarta.ws.rs.core.{MediaType, Response}
+import jakarta.ws.rs.core.Response
 import jakarta.ws.rs.{Consumes, DELETE, GET, POST, PUT, Path, PathParam, Produces}
-
-import scala.collection.mutable.ListBuffer
-import com.fasterxml.jackson.module.scala.DefaultScalaModule
-import jakarta.ws.rs.core.Response.StatusType
-import org.glassfish.grizzly.http.util.HttpStatus
 
 import java.io.{PrintWriter, StringWriter}
 
