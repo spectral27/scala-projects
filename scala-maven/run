@@ -1,0 +1,2 @@
+# mvn clean package
+scala -cp target/untitled-1.0-SNAPSHOT.jar org.example.hello
